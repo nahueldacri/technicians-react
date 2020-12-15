@@ -24,15 +24,15 @@ class App extends Component {
     }
   ]
 }
-// Delete Technician
-DeleteTechnicians = (id) => {
-  console.log(id)
-}
+// Delete technicians
+  DelTech = (id) => {
+    this.setState({ technicians: [...this.state.technicians.filter(technician => technician.id !== id)]});
+  }
 
   render(){
     return (
       <div className='App'>
-        <Technicians technicians={this.state.technicians} DeleteTechnicians={this.DeleteTechnicians} />
+        <Technicians technicians={this.state.technicians} DelTech={this.DelTech}/>
       </div>
     );
   }
