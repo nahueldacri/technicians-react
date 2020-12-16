@@ -1,0 +1,63 @@
+{
+  "technicians": [{
+    "id": 1,
+    "name": "Kellyann Seyers"
+  }, {
+    "id": 2,
+    "name": "Jerry Tattoo"
+  }, {
+    "id": 3,
+    "name": "Elwyn Tucsell"
+  }, {
+    "id": 4,
+    "name": "Yulma Martlew"
+  }, {
+    "id": 5,
+    "name": "Gonzales Jadczak"
+  }, {
+    "id": 6,
+    "name": "Ugo Hudghton"
+  }, {
+    "id": 7,
+    "name": "Lydon Oubridge"
+  }, {
+    "id": 8,
+    "name": "Silvia Ilem"
+  }, {
+    "id": 9,
+    "name": "Val Piff"
+  }, {
+    "id": 10,
+    "name": "Kelsi Thorington"
+  }, {
+    "id": 11,
+    "name": "Noelle Gerretsen"
+  }, {
+    "id": 12,
+    "name": "Keen Collicott"
+  }, {
+    "id": 13,
+    "name": "Thornton Bessett"
+  }, {
+    "id": 14,
+    "name": "Jourdain Urry"
+  }, {
+    "id": 15,
+    "name": "Garfield Dudmesh"
+  }, {
+    "id": 16,
+    "name": "Morna Stive"
+  }, {
+    "id": 17,
+    "name": "Kala Hefforde"
+  }, {
+    "id": 18,
+    "name": "Jamaal Nardi"
+  }, {
+    "id": 19,
+    "name": "Foster Joel"
+  }, {
+    "id": 20,
+    "name": "Modestia Causbey"
+  }]
+}

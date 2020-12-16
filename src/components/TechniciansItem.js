@@ -7,7 +7,7 @@ export class TechniciansItem extends Component {
     render(){
         const {id, name} = this.props.technician;
         return (
-            <div style={{ paddingLeft: '20px', margin: '4px', backgroundColor: '#999', border: '1px #000 solid'}}>
+            <div style={{paddingLeft: '20px', margin: '2px', backgroundColor: '#999', border: '1px #000 solid'}}>
                 <p>
                     {name}
                     <button onClick={this.props.DelTech.bind(this, id)} style={btnStyle}>X</button>
@@ -17,10 +17,10 @@ export class TechniciansItem extends Component {
     }
 }
 
-// PropTypes
 TechniciansItem.propTypes = {
-    technician: PropTypes.object.isRequired
-}
+    technician: PropTypes.object.isRequired,
+    DelTech: PropTypes.func.isRequired,
+  }
 
 const btnStyle = {
     float: 'right', 

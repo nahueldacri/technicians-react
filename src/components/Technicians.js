@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import TechniciansItem from './TechniciansItem';
 import PropTypes from 'prop-types';
+import AddTechnicians from './AddTechnicians';
 
 class Technicians extends Component {
   render(){
@@ -12,7 +13,8 @@ class Technicians extends Component {
 
 // PropTypes
 Technicians.propTypes = {
-  technicians: PropTypes.array.isRequired
+  technicians: PropTypes.array.isRequired,
+  DelTech: PropTypes.func.isRequired,
 }
 
 export default Technicians;
